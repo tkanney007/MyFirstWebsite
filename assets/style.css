@@ -1,0 +1,88 @@
+header {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: blue;
+  border-bottom: 10px solid black;
+  text-align: center;
+  padding-top: 10px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: red;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+#myinfo {
+  width: 250px;
+  height: 180px;
+  padding: 40px;
+  margin: 0px 0px 50px 0px;
+  border-width: 0px 10px 10px 10px;
+  border-style: solid;
+  border-color: black;
+  background-color: #6b6b6b;
+}
+
+#myinfo p {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#myinfo img {
+  padding: 0px 0px 0px 5px;
+  width: 40px;
+}
+
+#aboutme img {
+  width: 400px;
+  border: 5px solid black;
+}
+
+#gobills {
+  font-weight: bold;
+}
+
+li > a {
+  font-weight: bold;
+}
+
+li > a:link {
+  color: blue;
+}
+
+li > a:visited {
+  color: blue;
+}
+
+li > a:hover {
+  color: rgb(0, 0, 0);
+}
+
+li > a:active {
+  color: goldenrod;
+}
+
+#aboutyouform {
+  background-color: black;
+  width: 600px;
+  margin-bottom: 50px;
+  padding: 0px 0px 50px 50px;
+}
+
+#aboutyouform h2 {
+  color: white;
+}
+
+#aboutyouform table {
+  background-color: grey;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+footer hr {
+  border: 2px solid black;
+}
